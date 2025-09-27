@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "crit.bounceback.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "AxeBounce"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
